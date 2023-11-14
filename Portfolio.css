@@ -1,0 +1,449 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: hsl(0, 0%, 3%);
+    color: #fff;
+    height: 3000px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color: black;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+nav ul li a:hover {
+    color: rgb(15, 123, 218);
+    font-size: 1.2rem;
+}
+main hr{
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 60px 28px;
+}
+.main{
+    height: 1000px;
+}
+
+.leftone {
+    font-size: 1.25rem;
+}
+
+.rightone {
+    font-size: 1.25rem;
+}
+.title{
+    position: relative;
+    top:75px;
+    width: 150px;
+    font-size: 15px;
+}
+.info{
+    position: relative;
+    top: 95px;
+    color: #fff;
+    width: 140px;
+    font-size: 15px;
+}
+
+.one {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 140px 0;
+}
+
+.one>div {
+    width: 30%;
+
+}
+
+.leftsection {
+
+    font-size: 3rem;
+    margin: 80px;
+
+}
+
+.rightsection img{
+    height: 500px;
+    width: 600px;
+}
+.links img{
+    
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 100%;
+    height: 30px;
+    width: 70px;
+    
+
+}
+
+.red {
+    background-color: blueviolet;
+}
+.hustle{
+    color: blueviolet;
+    font-size: 1.5rem;
+}
+
+#element {
+    color: aqua;
+}
+.button2 button{
+   
+   
+   color: black;
+   background-color: #9c97f1;
+   border-radius: 20rem;
+   padding:20px;
+   border: 0.9rem;
+}
+.button2 button:hover{
+    color: rgb(15, 123, 218);
+    font-size: 1rem;
+}
+.socialmedia{
+    display: flex;
+    flex-direction: column;
+}
+.social{
+    margin-top: 20px;
+}
+.social ul{
+    
+    display: flex;
+    
+    align-items: center;
+    list-style: none;
+}
+.social li{
+    margin-inline: 2rem;
+}
+.social ul a img{
+   height: 50px;
+  width: 50px;    
+}
+
+.secondone {
+    max-width: 76vw;
+    margin: auto;
+    height: 85vh;
+}
+.rightone ul {
+    flex-basis: auto;
+    flex-direction: row;
+    gap: 20px;
+
+  cursor: pointer;
+}
+.secondone h1{
+
+    font-size: 1.5rem;
+}
+.first-img{
+    width: 34px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+.secondone .details{
+  background:wheat;
+  width: 88vw;
+  height: 2px;
+  margin: 56px 0;
+  display: flex;
+}
+.secondone .vertical{
+    height: 95px;
+    width: 1px;
+    background-color: #fff;
+    margin: 0 200px;
+}
+.container{
+    padding: 120px;
+    padding-top:  0 120px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.container .mb-3 .form-label{
+    padding: 10px;
+    padding-top: 60px 0;
+}
+.container form div{
+    padding: 15px 0;
+}
+.container form .form-text{
+    padding: 19px;
+    font-size: 1.1rem;
+
+}
+#emailHelp{
+    padding: 0 1px;
+    padding-top: 10px;
+    margin: 10px;
+}
+
+.container form .form-check-label{
+    padding: 13px;
+}
+.container form .form-check-label{
+    padding: 8px;
+}
+.container form .btn-btn-primary{
+    padding: 15px;
+    background-color:mediumturquoise;
+}
+#form-check-input{
+    width: 40px;
+    margin: 20px 0;
+}
+/* Import google font (Balsamiq Sans) */
+/* skills section start*/
+
+.thirdone{
+    max-width: 76vw;
+    margin: auto;
+    height: 100vh;
+    
+}
+#skills{
+    max-height: 700px;
+
+}
+.container1{
+    padding-top: 90px;
+}
+.thirdone .container1 p{
+    text-align: center;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: 500;
+    background-color: blueviolet;
+}
+.thirdone .container1  h2{
+    text-align: center;
+    padding-top: 20px;
+    background-color: blueviolet;
+}
+.skills1{
+    padding-top: 160px;
+      
+}
+#p1 h4{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+}
+        /*Projects */
+  .Projects h4{
+    text-align: center;
+   font-size: 40px;  
+   font-weight: 300;
+}
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.info-col{
+    flex-basis: 50%;
+    margin-bottom: 40px;
+    font-size: 10px;
+    font-weight: 560;
+    line-height: 50px;
+}
+.info-col h5{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    
+}
+
+.img-col img{
+    display: block;
+    width: 90%;
+    height: 50%;
+    margin: auto;
+}
+.Title h4{
+    text-align: center;
+    font-size: 30px;
+}
+#img img{
+    display: block;
+    width: 120%;
+    height: 30%;
+    margin: auto;
+    right: 50%;
+}
+
+
+
+.skills1 ul a img{
+    height: 100px;
+   width: 100px;    
+ }
+ .skills1 ul{
+    
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    list-style: none;
+}
+.skills1 li{
+    margin-inline: 2rem;
+}
+/* skills section end*/
+
+/* about me starts*/
+ .fourthone p{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.row .about-details h4{
+    font-size: 1.5rem;
+    padding: 25px;
+}
+.row .about-details span{
+    background-color: blueviolet;
+}
+.row .about-details h5{
+    padding: 20px;
+    font-size: 1rem;
+}
+/* .info-details .info-item{
+    padding: 10px;
+    flex: 0 0 40%;
+    max-width: 40%;
+} */
+.info-details{
+    padding: 20px;
+    background-color: #9c97f1;
+    display: flex;
+}
+.info-wise .info-item{
+    padding: 20px;
+    display: grid;
+    grid-template-rows: 15px;
+    
+}
+.info-details .info-wise .info-item h3 span{
+    font-weight: 400;
+    margin-left: 2px;
+    display: inline-block;
+    
+}
+
+/* about me ends .fouthone */
+/* education details start */
+.education h3.Title{
+    font-size: 23px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    padding: 20px;
+    padding-top: 30px;
+
+}
+.Projects h4.Title{
+    font-size: 23px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    padding: 20px;
+    padding-top: 30px;
+}
+.Projects h5.title{
+    font-size: 26px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    padding: 20px;
+    padding-top: 30px;
+}
+.timeline-box{
+    box-shadow: 0 0 20px rgba(48 ,46, 77, 60);
+    
+    padding: 30px;
+}
+.timeline-title{
+    padding-top: 10px;
+}
+.timeline-text{
+    padding-top: 10px;
+}
+.timeline-date{
+    padding-top: 20px;
+}
+/* eduacation details end*/
+/* Swiper container stylng */
+.swiper {
+    right: 1rem;
+    width: 100%;
+    height: 100%;
+ }
+ 
+ 
+ 
+.container1 .row .hii{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.container1 .row .hey h2{
+    text-align: center;
+    padding-top: 20px 0;
+    margin: 20px;
+}
+
+.container-box{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-gap: 1rem;
+}
+
+
+.container-box > div {
+   top: 25vh;
+   height: 50vh;
+}
+@media only screen and (max-width:639px) {
+    body{
+        background-color: red;
+    }
+   .leftsection{
+    flex-direction: column;
+   }
+}
